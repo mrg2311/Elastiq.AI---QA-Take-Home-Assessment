@@ -75,14 +75,6 @@ Modify the search term by changing the input string in the search_box.send_keys(
 
 Add additional assertions or validations as needed for further testing scenarios.
 
-Troubleshooting
-
-Common Errors:
-
-AssertionError: Indicates a mismatch between expected and actual results. Verify the website's structure or update the expected text to align with changes in the page content.
-
-NoSuchElementException: Ensure that the page is fully loaded, and the selectors used are correct.
-
 Debugging: Run the script in non-headless mode by commenting out options.add_argument('--headless') to visually inspect browser behavior.
 
 Future Improvements
